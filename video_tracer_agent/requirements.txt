@@ -1,0 +1,17 @@
+# 视频溯源智能体依赖清单
+
+# OCR（关键帧文字识别）
+rapidocr-onnxruntime
+
+# ASR（语音转写）
+faster-whisper
+
+# 爬虫（三网站检索）
+scrapling
+
+# 以下为 scrapling 运行所需的反爬/浏览器依赖
+curl_cffi
+playwright
+patchright
+browserforge
+msgspec
